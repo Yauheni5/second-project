@@ -1,0 +1,255 @@
+.page {
+  margin: 0 auto;
+  width: 1440px;
+  font-family: 'Libre Franklin', Arial, sans-serif;
+}
+
+/* body,
+header,
+nav,
+div,
+a,
+h1,
+h2,
+h3,
+h4,
+p,
+table,
+tr,
+th,
+td {
+  border: 1px solid red;
+} */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-sizing: border-box;
+  height: 75vh;
+  padding: 93px 166px 10% 165px;
+  background: url('../images/bg-header.png') no-repeat;
+  /* background: rgba(198, 108, 73, 0.3);
+  второй фон для header???*/
+  background-size: 100%;
+  color: #FFFFFF;
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 116px;
+  height: 29px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.header__links {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header__link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.header__link:last-of-type {
+  margin-right: 0;
+}
+
+.header__main {
+  margin: 145px 0 106px;
+}
+
+.header__title {
+  margin: 0 0 26px 0;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 78px;
+}
+
+.header__subtitle {
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.header__link-text {
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.content {
+  margin: 93px 166px 145px 165px;
+  color: #333333;
+}
+
+.content__about {
+  margin-bottom: 115px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.title_content_place-about {
+  margin: 0 0 76px 0;
+}
+
+.content__paragraph {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.content__skills_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.table-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 635px;
+}
+
+.table-skill {
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  height: 70px;
+}
+
+.content__foto-profile {
+  width: 350px;
+  height: 340px;
+}
+
+.table__title {
+  margin: 0;
+  line-height: 24px;
+  min-width: 170px;
+}
+
+.table-paragraph {
+  margin: 0;
+}
+
+.tools_table {
+  min-width: 170px;
+}
+
+.tools_table-text {
+  margin: 0;
+}
+
+.table-skill__tools {
+  display: flex;
+  flex-direction: row;
+}
+
+.table-skill__profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tools_progress-bar {
+  margin: 0;
+  background-color: #F5D6AB;
+  height: 25px;
+  width: 446px;
+}
+
+.tools_progress-bar span {
+  display: inline-block;
+  height: 25px;
+  background-color: #C66C49;
+}
+
+.portfolio {
+  position: relative;
+  padding: 93px 0 145px;
+
+}
+
+.portfolio__column {
+  display: flex;
+  flex-direction: column;
+  width: 349px;
+}
+
+.potfolio__title {
+  margin: 0;
+  width: max-content;
+}
+
+.portfolio__links {
+  text-decoration: none;
+  width: 24px;
+  height: 24px;
+}
+
+.portfolio__image {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  overflow: hidden;
+  width: 635px;
+  height: 403px;
+}
+
+.first-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../images/Rectangle.png') no-repeat;
+  width: 363px;
+  height: 241px;
+}
+
+.second-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url('../images/dom-luis-bridge-porto-carol-japp.png') no-repeat;
+  width: 255px;
+  height: 349px;
+}
+
+.third-image {
+  margin-top: 10px;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  background: url('../images/Rectangle\ \(1\).png') no-repeat;
+  width: 350px;
+  height: 241px;
+}
+
+.fourth-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url('../images/Rectangle\ \(2\).png') no-repeat;
+  width: 255px;
+  height: 144px;
+}
