@@ -92,7 +92,7 @@ td {
 }
 
 .content {
-  margin: 93px 166px 145px 165px;
+  margin: 93px 166px 0px 165px;
   color: #333333;
 }
 
@@ -188,13 +188,15 @@ td {
 .portfolio {
   position: relative;
   padding: 93px 0 145px;
-
+  height: 450px;
 }
 
 .portfolio__column {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 349px;
+  height: 100%;
 }
 
 .potfolio__title {
@@ -202,8 +204,17 @@ td {
   width: max-content;
 }
 
+.portfolio__slider-arrows {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: flex-end;
+  align-self: flex-end;
+}
+
 .portfolio__links {
   text-decoration: none;
+  margin-left: 20px;
   width: 24px;
   height: 24px;
 }
@@ -252,4 +263,38 @@ td {
   background: url('../images/Rectangle\ \(2\).png') no-repeat;
   width: 255px;
   height: 144px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 165px;
+}
+
+.footer__links {
+  text-decoration: none;
+  color: #333333;
+}
+
+.title_footer_place {
+  width: 100%;
+}
+
+.footer__platforms {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+
+.footer__social-links {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
