@@ -1,0 +1,7 @@
+.table-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 635px;
+}

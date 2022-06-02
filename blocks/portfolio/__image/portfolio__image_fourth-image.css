@@ -1,0 +1,8 @@
+.portfolio__image_fourth-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url('../../../images/Rectangle\ \(2\).png') no-repeat;
+  width: 255px;
+  height: 144px;
+}

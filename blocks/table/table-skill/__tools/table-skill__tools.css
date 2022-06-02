@@ -1,0 +1,4 @@
+.table-skill__tools {
+  display: flex;
+  flex-direction: row;
+}

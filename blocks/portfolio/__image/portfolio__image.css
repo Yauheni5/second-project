@@ -1,0 +1,8 @@
+.portfolio__image {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  overflow: hidden;
+  width: 635px;
+  height: 403px;
+}

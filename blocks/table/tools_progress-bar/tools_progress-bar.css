@@ -1,0 +1,12 @@
+.tools_progress-bar {
+  margin: 0;
+  background-color: #F5D6AB;
+  height: 25px;
+  width: 446px;
+}
+
+.tools_progress-bar span {
+  display: inline-block;
+  height: 25px;
+  background-color: #C66C49;
+}

@@ -4,8 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700&display=swap" rel="stylesheet">
@@ -32,7 +31,7 @@
   </header>
   <main class="content">
     <section class="content__about">
-      <h2 class="title title_content_place-about">
+      <h2 class="title title__content_place-about">
         About
       </h2>
       <p class="content__paragraph">
@@ -48,58 +47,61 @@
       </p>
     </section>
     <section class="content__info">
-      <h2 class="title title_content_place-skills">Skills</h2>
       <article class="content__skills_info">
+        <h2 class="title title__content_place-skills">Skills</h2>
+        <div class="content__skills-column">
+          <img src="./images/profile-picture.png" alt="avatar-foto" class="content__foto-profile ">
+          <div class="table-skills">
+            <div class="table-skill table-skill__title">
+              <h3 class="table__title">Profile</h3>
+              <p class="table-paragraph">UI / UX Engineer, Front-end Developer</p>
+            </div>
+            <div class="table-skill table-skill__profile-tools">
+              <div class="table-skill__profile">
+                <h3 class="table__title">UX Research</h3>
+                <div class="tools_progress-bar">
+                  <span style="width: 85%"></span>
+                </div>
+              </div>
+              <div class="table-skill__tools">
+                <div class="tools_table">Tools</div>
+                <p class="tools_table-text">Paper, Pen, Balsamiq</p>
+              </div>
+            </div>
+            <div class="table-skill table-skill__profile-tools">
+              <div class="table-skill__profile">
+                <h3 class="table__title">UI Design</h3>
+                <div class="tools_progress-bar">
+                  <span style="width: 75%"></span>
+                </div>
+              </div>
+              <div class="table-skill__tools">
+                <div class="tools_table">Tools</div>
+                <p class="tools_table-text">Adobe PS, AI, XD, Figma, InVision</p>
+              </div>
+            </div>
+            <div class="table-skill table-skill__profile-tools">
+              <div class="table-skill__profile">
+                <h3 class="table__title">Front-end Dev</h3>
+                <div class="tools_progress-bar">
+                  <span style="width: 60%"></span>
+                </div>
+              </div>
+              <div class="table-skill__tools">
+                <div class="tools_table">Tools</div>
+                <p class="tools_table-text">HTML, CSS, JS, Bootstrap, React</p>
+              </div>
+            </div>
+          </div>
 
-        <img src="./images/profile-picture.png" alt="avatar-foto" class="content__foto-profile ">
-        <div class="table-skills">
-          <div class="table-skill table-skill__title">
-            <h3 class="table__title">Profile</h3>
-            <p class="table-paragraph">UI / UX Engineer, Front-end Developer</p>
-          </div>
-          <div class="table-skill table-skill__profile-tools">
-            <div class="table-skill__profile">
-              <h3 class="table__title">UX Research</h3>
-              <div class="tools_progress-bar">
-                <span style="width: 85%"></span>
-              </div>
-            </div>
-            <div class="table-skill__tools">
-              <div class="tools_table">Tools</div>
-              <p class="tools_table-text">Paper, Pen, Balsamiq</p>
-            </div>
-          </div>
-          <div class="table-skill table-skill__profile-tools">
-            <div class="table-skill__profile">
-              <h3 class="table__title">UI Design</h3>
-              <div class="tools_progress-bar">
-                <span style="width: 75%"></span>
-              </div>
-            </div>
-            <div class="table-skill__tools">
-              <div class="tools_table">Tools</div>
-              <p class="tools_table-text">Adobe PS, AI, XD, Figma, InVision</p>
-            </div>
-          </div>
-          <div class="table-skill table-skill__profile-tools">
-            <div class="table-skill__profile">
-              <h3 class="table__title">Front-end Dev</h3>
-              <div class="tools_progress-bar">
-                <span style="width: 60%"></span>
-              </div>
-            </div>
-            <div class="table-skill__tools">
-              <div class="tools_table">Tools</div>
-              <p class="tools_table-text">HTML, CSS, JS, Bootstrap, React</p>
-            </div>
-          </div>
         </div>
       </article>
       <article class="portfolio">
         <h2 class="title title_content_place-Portfolio">Portfolio</h2>
         <div class="portfolio__column">
           <h2 class="potfolio__title">UX Research</h2>
-          <p class="portfolio__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam
+          <p class="portfolio__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum
+            nibh nam
             odio cursus id. Diam massa semper a tincidunt cursus ultricies lectus eget urna.</p>
           <div class="portfolio__slider-arrows">
             <a href="#" class="portfolio__links"><img src="./images/ChevronLeft(E76B).png"
@@ -109,10 +111,10 @@
           </div>
         </div>
         <div class="portfolio__image">
-          <div class="first-image"></div>
-          <div class="second-image"></div>
-          <div class="third-image"></div>
-          <div class="fourth-image"></div>
+          <div class="portfolio__image_first-image"></div>
+          <div class="portfolio__image_second-image"></div>
+          <div class="portfolio__image_third-image"></div>
+          <div class="portfolio__image_fourth-image"></div>
         </div>
       </article>
     </section>

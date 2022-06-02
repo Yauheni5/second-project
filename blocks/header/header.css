@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 93px 166px 10% 165px;
+  background: url('../../images/bg-header.png') no-repeat;
+  background-size: 100%;
+  color: #FFFFFF;
+}

@@ -1,0 +1,9 @@
+.portfolio__image_third-image {
+  margin-top: 10px;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  background: url('../../../images/Rectangle\ \(1\).png') no-repeat;
+  width: 350px;
+  height: 241px;
+}

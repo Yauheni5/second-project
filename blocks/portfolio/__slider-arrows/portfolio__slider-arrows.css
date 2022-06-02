@@ -1,0 +1,7 @@
+.portfolio__slider-arrows {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: flex-end;
+  align-self: flex-end;
+}

@@ -1,0 +1,8 @@
+.portfolio__image_first-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../../../images/Rectangle.png') no-repeat;
+  width: 363px;
+  height: 241px;
+}

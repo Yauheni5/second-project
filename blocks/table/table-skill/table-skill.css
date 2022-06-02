@@ -1,0 +1,6 @@
+.table-skill {
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  height: 70px;
+}

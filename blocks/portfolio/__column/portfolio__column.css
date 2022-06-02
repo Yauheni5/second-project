@@ -1,0 +1,7 @@
+.portfolio__column {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 349px;
+  height: 100%;
+}
